@@ -4,7 +4,11 @@ import React from "react";
 
 function BookList() {
   return (
-    <div>
+    <div className="bookList">
+      <Book />
+      <Book />
+      <Book />
+      <Book />
       <Book />
       <Book />
       <Book />

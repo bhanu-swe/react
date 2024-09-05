@@ -1,0 +1,10 @@
+.bookList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 2fr));
+  grid-gap: 5px; /* This combines column-gap and row-gap */
+}
+
+.book {
+  height: 600px;
+  width: 500px;
+}
